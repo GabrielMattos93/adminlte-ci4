@@ -7,5 +7,5 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->group("admin", function ($routes) {
-    $routes->get('/', 'Admin::index', ['as' => 'admin.home']);
+    $routes->get('/', 'Admin\Admin::index', ['as' => 'admin.home']);
 });
