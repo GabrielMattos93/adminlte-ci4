@@ -4,10 +4,10 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 
-class Admin extends BaseController
+class Dashboard extends BaseController
 {
     public function index()
     {
-        return view('admin/home');
+        return view('admin/layout/dashboard');
     }
 }

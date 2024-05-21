@@ -9,11 +9,11 @@
 <!-- REQUIRED SCRIPTS -->
 
 <!-- jQuery -->
-<script src="<?= base_url('public/admin/plugins/jquery/jquery.min.js') ?>"></script>
+<script src="<?= base_url('assets/admin/plugins/jquery/jquery.min.js') ?>"></script>
 <!-- Bootstrap 4 -->
-<script src="<?= base_url('public/admin/plugins/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+<script src="<?= base_url('assets/admin/plugins/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
 <!-- AdminLTE App -->
-<script src="<?= base_url('public/admin/assets/js/adminlte.min.js') ?>"></script>
+<script src="<?= base_url('assets/admin/js/adminlte.min.js') ?>"></script>
 </body>
 
 </html>
