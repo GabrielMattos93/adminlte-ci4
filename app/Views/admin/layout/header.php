@@ -12,7 +12,8 @@
       <ul class="navbar-nav ml-auto">
 
 
-
+          <?php if (session()->has('usuarios')) : ?>
+          <?php endif ?>
           <!-- Perfil do Usuário -->
           <li class="nav-item dropdown">
               <a class="nav-link" data-toggle="dropdown" href="#">
@@ -20,11 +21,11 @@
               </a>
               <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                   <div class="dropdown-divider"></div>
-                  <a href="#" class="dropdown-item">
+                  <a href="##" class="dropdown-item">
                       <i class="fas fa-pen mr-2"></i> Editar Perfil
                   </a>
                   <div class="dropdown-divider"></div>
-                  <a href="#" class="dropdown-item">
+                  <a href="<?= url_to('login.destroy');  ?>" class="dropdown-item">
                       <i class="fas fa-file mr-2"></i> Sair
                   </a>
           </li>

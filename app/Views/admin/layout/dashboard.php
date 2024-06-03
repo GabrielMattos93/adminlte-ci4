@@ -11,6 +11,7 @@
                 <div class="col-sm-6">
                     <h1 class="m-0">Starter Page</h1>
                 </div>
+                <p>Olá, </p>
                 <!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
